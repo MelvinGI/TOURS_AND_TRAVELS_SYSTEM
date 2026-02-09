@@ -145,13 +145,7 @@ The contact form uses MongoDB to store submissions. For production:
 3. Get your connection string
 4. Add `MONGODB_URI` environment variable in Vercel
 
-### Video Hosting
-Large video files are excluded from deployment. Host videos on:
-- YouTube (recommended)
-- Cloudinary
-- Vimeo
 
-See `VIDEO-HOSTING-GUIDE.md` for details.
 
 ## 🎨 Customization
 
@@ -167,22 +161,7 @@ See `VIDEO-HOSTING-GUIDE.md` for details.
 - Add images to `assets/img/`
 - Update image paths in HTML files
 
-## 👥 Team
 
-- **Samuel Ngunju** - CEO & Travel Consultant
-- **Madam Susan** - Education Consultant
-
-## 📞 Contact
-
-- **Location:** Mombasa, Bamburi mwisho opp Petro city old Malindi RD
-- **Email:** savina consultancytravelagency@gmail.com
-- **Phone:** +254 704158486
-
-## 🔗 Social Media
-
-- [YouTube](https://youtube.com/@savinatravel)
-- [TikTok](https://www.tiktok.com/@savina_consultancy_tours)
-- [LinkedIn](https://www.linkedin.com/in/samuel-ngunju-51b62a294)
 
 ## 📄 License
 
