@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large video files (host on YouTube/Cloudinary instead)
+assets/img/*.mp4
+
+# Large PDF files
+assets/img/*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

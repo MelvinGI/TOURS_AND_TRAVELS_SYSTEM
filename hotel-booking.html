@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2ff; /* Light cerulean blue background */
+      color: #034f84; /* Cerulean blue text color */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #034f84;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+    h1, h2 {
+      color: #034f84;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .gallery div {
+      margin: 10px;
+      text-align: center;
+      flex: 1 1 30%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-bottom: 2px solid #034f84;
+    }
+    .description {
+      padding: 10px;
+    }
+    footer {
+      background: #034f84;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hotel Booking</h1>
+  </header>
+  <section id="hotel-booking">
+    <div class="container">
+      <h2>Our Hotel Booking Services</h2>
+      <p>Discover a variety of accommodation options to suit your needs, whether you're looking for homely apartments, cozy lodges, luxury hotels, or budget-friendly hostels. We offer a curated selection of properties to ensure you have a comfortable and enjoyable stay. Here are some of the hotels you can book with us:</p>
+      <div class="gallery">
+        <div>
+          <img src="assets/img/mara hotel.jpg" alt="Hotel 1">
+          <div class="description">
+            <p><strong>Mara Intrepids Tented Camp</strong></p>
+            <p>Imagine being in the heart of the Maasai Mara, surrounded by the wonders of nature, yet cocooned in the comfort of a tented camp.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/diani.webp" alt="Hotel 2">
+          <div class="description">
+            <p><strong>PrideInn Hotel Diani</strong></p>
+            <p>Diani Beach, one of Africa's hidden gems, welcomes travelers with open arms, and the PrideInn Hotel Diani offers a budget-friendly gateway to this coastal paradise. It provides comfortable accommodations just moments from the pristine Diani Beach, making it a top choice for budget-conscious travelers who seek sun, sand, and savings.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/water lovers.jpg" alt="Hotel 3">
+          <div class="description">
+            <p><strong>WaterLovers Diani</strong></p>
+            <p>Waterlovers is a quaint beach resort in Diani Beach, Kenya, just 35 km south of Mombasa. This tropical paradise is known for its 25 km of white sandy beaches and calm turquoise waters, stretching 500 meters to the coral reef. The resort offers eight spacious oceanfront Suites, a Penthouse Apartment, and a self-contained Villa. Amenities include a sea-view restaurant, a beach bar, a unique turtle-shaped infinity pool, a spa, and an art boutique.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/moven pick.jpg" alt="Hotel 4">
+          <div class="description">
+            <p><strong>Movenpick Hotel & Residences Nairobi</strong></p>
+            <p>Situated in Nairobi, the Movenpick Hotel & Residences is a haven of luxury and sophistication. Its 5-star status is well-earned, with spacious rooms that exude opulence and modern amenities that cater to every whim.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/elsas-kopje-lodge-p.webp" alt="Hotel 5">
+          <div class="description">
+            <p><strong>Elsa's Kopje Lodge</strong></p>
+            <p>This eco-friendly boutique lodge sits on Mughwango Hill overlooking the Meru plains. The elegant rustic cottages offer spectacular views over Meru National Park, and the restaurant serves excellent international dishes with an Italian influence. Activities include river fishing and visits to the park’s rhino sanctuary.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/mara-plains-camp.webp" alt="Hotel 6">
+          <div class="description">
+            <p><strong>Mara Plains Camp</strong></p>
+            <p>This is one of the most luxurious camps in the Masai Mara. It's also one of the best placed. Dangling over the Ntiakitiak River, and enjoying unparalleled views across the savannah, the setting is perfect. It's been elevated further following a complete refurbishment in 2021 and the addition of a new super-suite.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/angama-mara-kenya-p.webp" alt="Hotel 7">
+          <div class="description">
+            <p><strong>Angama Mara</strong></p>
+            <p>Angama Mara, balancing high on the Great Rift Valley overlooking the Maasai Mara plains, is all about the utterly mesmerizing view. The lodge brings next-level luxury to the usual safari experience, offering swanky glass-fronted tents, excellent cuisine, and warm hospitality.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/tribe.webp" alt="Hotel 8">
+          <div class="description">
+            <p><strong>Tribe</strong></p>
+            <p>Tribe is possibly Nairobi’s coolest hotel. Blending contemporary design with tribal art and artefacts handpicked from across the continent, this luxury boutique accommodation offers a taste of Africa old and new. Expect understated glamour, exceptional service, and an eclectic crowd.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/giraffe-manor-nairobi-interior.webp" alt="Hotel 9">
+          <div class="description">
+            <p><strong>Giraffe Manor</strong></p>
+            <p>Giraffe Manor is famous for its friendly neighbours – a herd of Rothschild giraffes that delight in sticking their long necks through the windows to be fed treats. Revel in getting up close to these magnificent animals while basking in the comforts of a gorgeous 1930s manor house.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/mahali-mzuri-kenya.webp" alt="Hotel 10">
+          <div class="description">
+            <p><strong>Mahali Pazuri</strong></p>
+            <p>Richard Branson's safari camp breaks away from traditional tents and brings modern comforts to the Maasai Mara. Every aspect has been considered, from endless nibbles and drinks to binoculars thoughtfully placed for guests to take in the incredible views and the wildlife living within it.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/borana-lodge-kenya-p.webp" alt="Hotel 11">
+          <div class="description">
+            <p><strong>Borana Lodge</strong></p>
+            <p>Perched on a hillside in East Africa's largest rhino sanctuary, the elegant rustic cottages here are built with local stone and wood, while bathrooms are built around rock. The local vegetable garden provides the kitchen with fresh greens, and there are plenty of activities including rhino tracking and mountain biking.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/villa-rosa-p.webp" alt="Hotel 12">
+          <div class="description">
+            <p><strong>Kempinski</strong></p>
+            <p>Villa Rosa Kempinski, an imposing rose-hued 10-floor hotel situated on the edge of the business district, is an ideal base from which to explore Nairobi, but its numerous restaurants and excellent spa and pool more than warrant staying in and enjoying the first-class service.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/Sarova_Stanley_-_Exterior_2.jpg" alt="Hotel 13">
+          <div class="description">
+            <p><strong>Sarova Stanley</strong></p>
+            <p>Stanley Queen Rooms at Sarova Stanley offer the rare luxury of space, the largest in their category in the city, having been built at a time when space was never a constraint. The rooms are done up in classical style with chintz furnishings and plush carpeting.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/bahari beach.webp" alt="Hotel 14">
+          <div class="description">
+            <p><strong>Bahari Beach Hotel</strong></p>
+            <p>Serving as a home away from home, Bahari Beach Hotel is all about the positive energy and good vibes. Offering a perfect combination of unique accommodation, variety of seafood restaurants, vibrant beach bars, and breathtaking views of the Mombasa beach, this stone-built hotel indeed serves as one of the best hotels in Kenya.</p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/Lake-Naivasha-Sopa-Resort-62-850x540.webp" alt="Hotel 15">
+          <div class="description">
+            <p><strong>Lake Naivasha Sopa Resort</strong></p>
+            <p>Lake Naivasha Sopa Resort is a top-rated safari lodge located in the heart of Naivasha, Kenya. The resort boasts a serene and picturesque location overlooking Lake Naivasha and its surrounding wildlife, making it an ideal destination for nature lovers and adventure seekers.</p>
+          </div>
+        </div>
+      </div>
+      <p>And these are just a few of the many fantastic options available. Whether you're seeking adventure, relaxation, or luxury, we have countless more hotels to choose from to ensure your stay is unforgettable.</p>
+    </div>
+  </section>
+  <footer>
+    &copy; 2024 Savina Consultancy Tours & Travel. All Rights Reserved.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+node_modules
+.git
+__pycache__
+*.pyc
+.vscode
+assets/img/*.mp4
+assets/img/Beginning Ethical Hacking with Python.pdf
+assets/img/magazine.pdf
